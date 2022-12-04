@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="315acc3b-1ec2-45fa-9bbd-4cfb7d2a4e92" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/sqr/services/SQRService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/sqr/services/SQRService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/sqr/services/SQRServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/sqr/services/SQRServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +43,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\sqr" />
+      <recent name="C:\Users\user\IdeaProjects\sqr\src\main" />
       <recent name="C:\Users\user\IdeaProjects\sqr\src" />
       <recent name="C:\Users\user\IdeaProjects\sqr\.idea" />
       <recent name="C:\Users\user\IdeaProjects\sqr\src\main\java\ru\netology\sqr\services" />
@@ -53,7 +58,7 @@
       <command value="mvn clean test" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.SQRServiceTest.shouldCalcSquareIfBoundaryMinMax">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="sqr" />
@@ -61,9 +66,77 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SQRServiceTest.shouldCalcSquareIfBoundaryMinMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sqr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.sqr.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.sqr.services" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.sqr.services.SQRServiceTest" />
+      <option name="METHOD_NAME" value="shouldCalcSquareIfBoundaryMinMax" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SQRServiceTest.shouldCalcSquareIfIncorrectMinMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sqr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.sqr.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.sqr.services" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.sqr.services.SQRServiceTest" />
+      <option name="METHOD_NAME" value="shouldCalcSquareIfIncorrectMinMax" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SQRServiceTest.shouldCalcSquareIfNegativeMin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sqr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.sqr.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.sqr.services" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.sqr.services.SQRServiceTest" />
+      <option name="METHOD_NAME" value="shouldCalcSquareIfNegativeMin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SQRServiceTest.shouldCalcSquareIfNegativeMinMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sqr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.sqr.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.sqr.services" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.sqr.services.SQRServiceTest" />
+      <option name="METHOD_NAME" value="shouldCalcSquareIfNegativeMinMax" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SQRServiceTest.shouldCalcSquareIfBoundaryMinMax" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.SQRServiceTest.shouldCalcSquareIfNegativeMinMax" />
+        <item itemvalue="JUnit.SQRServiceTest.shouldCalcSquareIfNegativeMin" />
+        <item itemvalue="JUnit.SQRServiceTest.shouldCalcSquareIfIncorrectMinMax" />
       </list>
     </recent_temporary>
   </component>
@@ -88,5 +161,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/netology/sqr/services/SQRServiceTest.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
